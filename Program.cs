@@ -11,7 +11,7 @@ dotnet add package Azure.Messaging.EventHubs.Producer
 
 class Program
 {
-    private const string connectionString = "Endpoint=sb://ehr-vitals-icu.servicebus.windows.net/;SharedAccessKeyName=access;SharedAccessKey=M7faZqnclsi6R6IKMicp3CPzT+nh2MCKM+AEhEU/OW4=;EntityPath=patient-vitals-eh";
+    private const string connectionString = "PROVIDE_EVENTHUB_CONNECTION_STRING";
     private const string eventHubName = "patient-vitals-eh";
     private static readonly Random random = new();
 
